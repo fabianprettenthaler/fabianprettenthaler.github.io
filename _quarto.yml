@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Fabian Prettenthaler"
+  navbar:
+    right:
+      - blog.qmd
+      - icon: twitter
+        href: https://twitter.com/FabianPrettent1
+      - text: CV
+        href: CV/CV_FP.pdf
+  page-footer:
+    background: dark # or dark
+    left:
+      - "Copyright 2023, Fabian Prettenthaler"
+        
+format:
+  html:
+    theme: darkly
+    css: styles.css
+
+editor: visual
+

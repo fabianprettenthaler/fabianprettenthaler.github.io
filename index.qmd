@@ -1,0 +1,71 @@
+---
+title: "Fabian Prettenthaler"
+image: profile.jpg
+about:
+  template: trestles
+  image-shape: round
+  image-width: 20em
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/FabianPrettent1
+    - icon: envelope
+      text: Email
+      href: mailto:fabian.prettenthaler@univie.ac.at
+    - icon: CV
+      text: CV
+      href: CV/CV_FP.pdf
+---
+
+Welcome to my academic website. I am a PhD student at the University of Vienna.
+
+I'm particularly intrigued by the dynamics of life cycles, financial constraints, and broader macroeconomic principles. I employ a blend of empirical and quantitative methodologies to explore and address my research questions.
+
+------------------------------------------------------------------------
+
+## Interests
+
+-   Wealth inequality
+
+-   Life-cycle dynamics
+
+-   Heterogeneous agents
+
+------------------------------------------------------------------------
+
+## Education
+
+**University of Vienna**
+
+-   PhD in Economics \| 2021 - present
+
+-   MSc in Economics \| 2014 - Jun 2021
+
+**Vienna University of Business and Economics**
+
+-   BSc in Economics \| 2014- 2018
+
+------------------------------------------------------------------------
+
+## Work in progress
+
+-   The Real Estate Transfer Tax and Financial Constraints [Details](posts/RETT)
+
+-   Nascent Entrepreneurs and the Role of Risk Preferences
+    with B Hochmuth, and M Merz (both University of Vienna)
+
+------------------------------------------------------------------------
+
+## Teaching
+
+-   [UE Applied Macroeconomics (MA) (2023W)](https://ufind.univie.ac.at/de/course.html?lv=040107&semester=2023W)
+
+    -   Lecturer
+
+-   [KU Advanced Macroeconomics (MA) (2023S)](https://ufind.univie.ac.at/de/course.html?lv=040041&semester=2023S)
+
+    -   TA for Monika Gehrig-Merz
+
+-   [UE Applied Macroeconomics (MA) (2022W)](https://ufind.univie.ac.at/de/course.html?lv=040107&semester=2022W)
+
+    -   Lecturer
