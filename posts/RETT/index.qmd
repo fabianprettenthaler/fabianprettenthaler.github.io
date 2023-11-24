@@ -1,7 +1,5 @@
 ---
 title: "The Real Estate Transfer Tax and Financial Constraints"
-author: "Fabian Prettenthaler"
-date: "Nov 24 2023"
 categories: [work in progress]
 image: "RETT.png"
 ---
