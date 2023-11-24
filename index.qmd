@@ -49,10 +49,11 @@ I'm particularly intrigued by the dynamics of life cycles, financial constraints
 
 ## Work in progress
 
--   The Real Estate Transfer Tax and Financial Constraints [Details](posts/RETT)
+-   The Real Estate Transfer Tax and Financial Constraints ([Details](posts/RETT))
 
 -   Nascent Entrepreneurs and the Role of Risk Preferences
-    with B Hochmuth, and M Merz (both University of Vienna)
+
+    -   joint with B Hochmuth, and M Merz (both University of Vienna)
 
 ------------------------------------------------------------------------
 
@@ -64,7 +65,7 @@ I'm particularly intrigued by the dynamics of life cycles, financial constraints
 
 -   [KU Advanced Macroeconomics (MA) (2023S)](https://ufind.univie.ac.at/de/course.html?lv=040041&semester=2023S)
 
-    -   TA for Monika Gehrig-Merz
+    -   TA for Monika Merz
 
 -   [UE Applied Macroeconomics (MA) (2022W)](https://ufind.univie.ac.at/de/course.html?lv=040107&semester=2022W)
 
