@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  google-analytics: "G-JBWPRMFXM3"
   title: "Fabian Prettenthaler"
   navbar:
     right:
