@@ -5,6 +5,7 @@ project:
 website:
   google-analytics: "G-JBWPRMFXM3"
   title: "Fabian Prettenthaler"
+  favicon: "FP_logo.png"
   navbar:
     right:
       - blog.qmd
