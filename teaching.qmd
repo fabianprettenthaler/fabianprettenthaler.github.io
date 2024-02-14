@@ -1,0 +1,156 @@
+---
+title: "Teaching"
+filters: 
+  - shinylive 
+---
+
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+library(shiny)
+library(ggplot2)
+
+# Define UI for application that draws a histogram
+ui <- fluidPage(
+
+    # Application title
+    titlePanel("Solow Growth Model"),
+    
+
+    # Sidebar with a slider input for number of bins 
+    sidebarLayout(
+        sidebarPanel(
+          p("This is a interactive way for you to understand the comparative statics in the Solow Growth model you saw in the main lecture."),
+          p("The production function in this economy look as follows:"),
+          withMathJax("$$Y=A*F(K,L)=f(k)=k^\\alpha \\text{ , with } A=1$$ "),
+          p("Equivalent to the lecture there is no population growth and technological progress."),
+          p("The black lines corespond to an economy where"),
+          withMathJax("$$\\delta = 0.02$$ $$s = 0.4$$ $$\\alpha = 0.3$$"),
+            sliderInput("delta",
+                        "Depreciation Rate:",
+                        min = 0.015,
+                        max = 0.1,
+                        value = 0.02),
+            sliderInput("s",
+                        "Savings Rate:",
+                        min = 0,
+                        max = 0.5,
+                        value = 0.4),
+            sliderInput("alpha",
+                        "Alpha:",
+                        min = 0,
+                        max = 0.35,
+                        value = 0.3),
+          checkboxInput("somevalue", "Show Production Function", FALSE)
+        ),
+
+        # Show a plot of the generated distribution
+        mainPanel(
+           plotOutput("SolowPlot"),
+           uiOutput("values")
+        )
+    )
+)
+
+# Define server logic required to draw a histogram
+server <- function(input, output) {
+
+    output$SolowPlot <- renderPlot({
+        # create variables for the plot
+        k_ss <-  (input$s/input$delta)^(1/(1-input$alpha))
+        k_gold <- (input$alpha/input$delta)^(1/(1-input$alpha))
+        k <-  seq(0,100,0.01)
+        y <- k^input$alpha
+        i <- y*input$s
+        break_even <- input$delta*k
+        i_ss = (k_ss^input$alpha)*input$s
+        i_gold = k_gold*input$delta
+        ### also origins to see changes
+        k_ss_o <-  (0.4/0.02)^(1/(1-0.3))
+        k_gold_o <- (0.3/0.02)^(1/(1-0.3))
+        y_o <- k^0.3
+        i_o <- y_o*0.4
+        break_even_o <- 0.02*k
+        i_ss_o = (k_ss_o^0.3)*0.4
+        i_gold_o = k_gold_o*0.02
+        
+        data <- cbind(k,i,break_even)
+        data <- data.frame(data)
+        
+        if(input$somevalue==FALSE){
+        
+        ggplot(data, aes(x=k),color="blue") +
+          geom_line(aes(y=i,color="blue"), show.legend = F) +
+          geom_line(aes(y=break_even,color="red"), show.legend = F) +
+          geom_line(aes(y=i_o), show.legend = F) +
+          geom_line(aes(y=break_even_o), show.legend = F) +
+          geom_segment(aes(x = k_ss, y = 0, xend = k_ss, yend =i_ss),color="red") +
+          geom_segment(aes(x = k_gold, y = 0, xend = k_gold, yend =i_gold),color="blue") +
+          geom_segment(aes(x = k_ss_o, y = 0, xend = k_ss_o, yend =i_ss_o)) +
+          geom_segment(aes(x = k_gold_o, y = 0, xend = k_gold_o, yend =i_gold_o)) +
+         annotate("text", x = k_ss*1.001, y = -0.05, label = "k*'", size = 4) +
+          annotate("text", x = k_gold*1.001, y = -0.05, label = "k**'", size = 4) +
+          annotate("text", x = k_ss_o*1.001, y = -0.05, label = "k*", size = 4) +
+          annotate("text", x = k_gold_o*1.001, y = -0.05, label = "k**", size = 4) +
+          annotate("text", x = max(k)*1.05, y = max(break_even),
+                   label = "~delta~k", parse = TRUE, size = 4,color="blue") +
+          annotate("text", x = max(k)*1.05, y = max(i),
+                   label = "s*f(k)", parse = TRUE,
+                   size = 4,color="red") +
+          annotate("text", x = max(k)*1.05, y = max(break_even_o),
+                   label = "~delta~k", parse = TRUE, size = 4) +
+          annotate("text", x = max(k)*1.05, y = max(i_o),
+                   label = "s*f(k)", parse = TRUE,
+                   size = 4) +
+          xlab("Capital") +
+          ylab("Investment") +
+          theme_classic() }else{
+            ggplot(data, aes(x=k)) +
+              geom_line(aes(y=i,color="blue"), show.legend = F) +
+              geom_line(aes(y=break_even,color="red"), show.legend = F) +
+              geom_line(aes(y=y,color="orange"), show.legend = F) +
+              geom_line(aes(y=i_o), show.legend = F) +
+              geom_line(aes(y=break_even_o), show.legend = F) +
+              geom_line(aes(y=y_o), show.legend = F) +
+              geom_segment(aes(x = k_ss, y = 0, xend = k_ss, yend =i_ss),color="red") +
+              geom_segment(aes(x = k_gold, y = 0, xend = k_gold, yend =i_gold),color="blue") +
+              geom_segment(aes(x = k_ss_o, y = 0, xend = k_ss_o, yend =i_ss_o)) +
+              geom_segment(aes(x = k_gold_o, y = 0, xend = k_gold_o, yend =i_gold_o)) +
+              annotate("text", x = k_ss*1.001, y = -0.05, label = "k*'", size = 4) +
+              annotate("text", x = k_gold*1.001, y = -0.05, label = "k**'", size = 4) +
+              annotate("text", x = k_ss_o*1.001, y = -0.05, label = "k*", size = 4) +
+              annotate("text", x = k_gold_o*1.001, y = -0.05, label = "k**", size = 4) +
+              annotate("text", x = max(k)*1.05, y = max(break_even),
+                       label = "~delta~k", parse = TRUE, size = 4,color="blue") +
+              annotate("text", x = max(k)*1.05, y = max(i),
+                       label = "s*f(k)", parse = TRUE,
+                       size = 4,color="red") +
+              annotate("text", x = max(k)*1.05, y = max(y),
+                       label = "f(k)", parse = TRUE,
+                       size = 4,color="orange") +
+              annotate("text", x = max(k)*1.05, y = max(break_even_o),
+                       label = "~delta~k", parse = TRUE, size = 4) +
+              annotate("text", x = max(k)*1.05, y = max(i_o),
+                       label = "s*f(k)", parse = TRUE,
+                       size = 4) +
+              annotate("text", x = max(k)*1.05, y = max(y_o),
+                       label = "f(k)", parse = TRUE,
+                       size = 4) +
+              xlab("Capital") +
+              ylab("Investment") +
+              scale_color_manual(values = c("blue", "red", "orange")) +
+              theme_classic() 
+          }
+    })
+    output$values <- renderUI({
+      k_ss <-  round((input$s/input$delta)^(1/(1-input$alpha)),2)
+      k_gold <- round((input$alpha/input$delta)^(1/(1-input$alpha)),2)
+      withMathJax(paste0("$$k^*=", k_ss,"$$", "$$k^{**}=", k_gold,"$$"))
+    })
+}
+
+# Run the application 
+shinyApp(ui = ui, server = server)
+
+```

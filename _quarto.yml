@@ -9,19 +9,25 @@ website:
   navbar:
     right:
       - blog.qmd
-      - icon: twitter
-        href: https://twitter.com/FabianPrettent1
-      - text: CV
-        href: CV/CV_FP.pdf
+ #     - icon: twitter
+  #      href: https://twitter.com/FabianPrettent1
+   #   - text: CV
+    #    href: CV/CV_FP.pdf
   page-footer:
     background: dark # or dark
     left:
-      - "Copyright 2023, Fabian Prettenthaler"
+      - "Copyright 2024, Fabian Prettenthaler"
         
 format:
   html:
     theme: darkly
-    css: styles.css
+    css: styles.css#
+    
+grid: 
+      body-width: 2000px
+      sidebar-width: 200px
+      margin-width: 200px
+
 
 editor: visual
 
