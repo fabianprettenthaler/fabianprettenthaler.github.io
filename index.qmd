@@ -21,6 +21,8 @@ Welcome to my academic website. I am a PhD student at the University of Vienna.
 
 I'm particularly intrigued by the dynamics of life cycles, financial constraints, and broader macroeconomic principles. I employ a blend of empirical and quantitative methodologies to explore and address my research questions.
 
+My advisors are [Monika Merz](https://sites.google.com/view/monikamerz){target="_blank"} and [Michael Reiter](https://www.ihs.ac.at/de/personen/michael-reiter/){target="_blank"}.
+
 ------------------------------------------------------------------------
 
 ## Interests

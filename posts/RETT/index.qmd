@@ -1,6 +1,6 @@
 ---
 title: "The Real Estate Transfer Tax and Financial Constraints"
-categories: [work in progress]
+categories: [Work in Progress]
 image: "RETT.png"
 ---
 
