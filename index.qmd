@@ -51,17 +51,11 @@ My advisors are [Monika Merz](https://sites.google.com/view/monikamerz){target="
 
 ## Work in progress
 
--   The Real Estate Transfer Tax and Financial Constraints | [Details](posts/RETT)
+-   Staying Put: Housing Decisions of Asset-Rich, Cash-Poor Elderly Households | [Details](posts/RETT)
 
     
 
--   Heterogenous Risk Preferences, Entrepreneurship, and Wealth Inequality |  <a data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="cursor: pointer; text-decoration: underline; color: #00BC8C;">
-  Abstract
-</a> <br>
-<div class="collapse" id="collapseExample">
-  <div class="card card-body no-border">
-    This paper studies the role of heterogeneous risk preferences in shaping entrepreneurial decisions and their implications for wealth inequality. We examine how individuals’ risk attitudes guide their choice between becoming a risk-bearing entrepreneur and a wage worker with a more stable income. To empirically ground our study, we use self-reported risk attitudes among the German workforce based on data from the German Socioeconomic Panel (GSOEP) and estimate their impact on the likelihood of workers transitioning into self-employment. Our findings highlight that risk tolerance is a key determinant in opting for entrepreneurship. We further build a life-cycle model of occupational choice that features heterogeneous risk preferences and explore how these choices influence savings/investment and wealth accumulation. Our preliminary results reveal that a model featuring heterogeneous risk preferences not only successfully captures the distribution of wealth in Germany, but also does so more accurately compared to models assuming uniform risk attitudes across individuals. </div>
-</div>
+-   Heterogeneous Risk Preferences, Entrepreneurship, and Wealth |  [Details](posts/Risk_Pref) [CEPR Discussion Paper](https://cepr.org/publications/dp20286)
 
 
     -   joint with B Hochmuth, and M Merz (both University of Vienna)

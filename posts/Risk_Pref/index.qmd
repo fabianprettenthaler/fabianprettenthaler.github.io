@@ -1,0 +1,11 @@
+---
+title: "Heterogeneous Risk Preferences, Entrepreneurship, and Wealth"
+categories: [Working Paper]
+image: "willingness_risk.png"
+---
+
+This paper studies how individual risk attitudes shape occupational choice and wealth accumulation. Using self-reported individual risk preferences from the German Socioeconomic Panel (GSOEP), we estimate that an increase in risk tolerance raises the probability of a worker transitioning to self-employment. We also develop a life-cycle model of occupational choice with Epstein-Zin preferences and heterogeneous risk attitudes to study how risk aversion interacts with entrepreneurial ability and wealth in determining entry into self-employment and its aggregate implications. Counterfactual simulations show that increasing business risk reduces entry but improves selection by entrepreneurial skills. In contrast, Germany’s “1-Euro GmbH” reform of 2008 weakened the role of risk tolerance for entry and increased participation by more risk-averse individuals.
+
+------------------------------------------------------------------------
+
+[CEPR Discussion Paper](https://cepr.org/publications/dp20286)

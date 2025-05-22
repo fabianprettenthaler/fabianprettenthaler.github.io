@@ -1,11 +1,12 @@
 ---
-title: "The Real Estate Transfer Tax and Financial Constraints"
+title: "Staying Put: Housing Decisions of Asset-Rich, Cash-Poor Elderly Households"
 categories: [Work in Progress]
 image: "RETT.png"
 ---
 
-In Germany, households tend to maintain their house size as they age, even when faced with financial constraints. This reluctance to adjust might be attributed to the high transfer taxes imposed on real estate, which in turn limit the liquidity of the real estate market. My project aims to delve into the shifts in consumption behavior, particularly during retirement, by examining the impact of reduced real estate transfer taxes. I'm using micro data from Germany to gain detailed insights and employ a life-cycle model featuring heterogeneous agents to scrutinize consumption patterns across different life stages.
+This paper examines the influence of local real estate This paper examines how real estate transfer taxes and local market conditions affect elderly households' decisions to downsize their homes in Germany, contributing to our understanding of the retirement consumption puzzle. Although housing needs evolve over the life cycle, households—particularly homeowners—seldom adjust their housing size despite potential financial benefits. In addition to socio-economic factors such as divorce or income changes, state-level real estate transfer taxes may also play a role. To empirically assess these effects, I combine data from the German Socio-economic Panel (GSOEP) with local real estate market indices to estimate their impact on the likelihood of downsizing in old age. My findings indicate that both transfer taxes and local real estate prices significantly affect homeowners, but in opposing directions: a higher tax rate reduces the probability of downsizing by 0.5 percentage points, while higher local purchase price indices increase it by 0.7 percentage points. In addition, I develop a life-cycle model that integrates housing decisions and examines the relationship between old-age housing and durable goods consumption. Preliminary results suggest that the model successfully replicates observed homeownership patterns over the life cycle. Notably, reducing transfer taxes increases end-of-life consumption by 10-15 percent, suggesting that housing market frictions significantly contribute to suboptimal consumption paths in retirement.
 
 ------------------------------------------------------------------------
 
-[Poster](Poster.pdf)
+
+
