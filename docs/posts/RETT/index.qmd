@@ -1,0 +1,12 @@
+---
+title: "Staying Put: Housing Decisions of Asset-Rich, Cash-Poor Elderly Households"
+categories: [Work in Progress]
+image: "RETT.png"
+---
+
+This paper investigates how real estate transfer taxes and local market conditions influence elderly households' decisions to downsize in Germany, shedding light on the retirement consumption puzzle. Despite evolving housing needs, home owners rarely adjust their housing size, even when downsizing could provide financial benefits. Using data from the German Socio-Economic Panel (GSOEP) combined with local real estate market indices, I estimate the impact of transfer taxes and local prices on the likelihood of downsizing. The results show that higher transfer taxes reduce the probability of downsizing by 0.5 percentage points, while higher local purchase price indices increase it by 0.7 percentage points. Additionally, I develop a life-cycle model incorporating housing decisions to explore the link between old-age housing and durable goods consumption. The model replicates observed home ownership patterns and reveals that while transfer tax changes have minimal steady-state effects on consumption, they cause significant consumption variations during the transition.
+
+------------------------------------------------------------------------
+
+
+
