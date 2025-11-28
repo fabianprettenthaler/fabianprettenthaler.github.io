@@ -51,7 +51,12 @@ My advisors are [Monika Merz](https://sites.google.com/view/monikamerz){target="
 
 ## Work in progress
 
--   Staying Put: Housing Decisions of Asset-Rich, Cash-Poor Elderly Households | [Details](posts/RETT)
+-   Aggregate and Inter-Generational Effects of Changing the Real Estate Transfer Tax | [Details](posts/RETT)
+
+-   Business Risk, Taxation and Economic Welfare
+
+
+    -   joint with B Hochmuth (U Copenhagen), and M Merz (U Vienna)
 
 ------------------------------------------------------------------------
 
@@ -60,7 +65,7 @@ My advisors are [Monika Merz](https://sites.google.com/view/monikamerz){target="
 -   Heterogeneous Risk Preferences, Entrepreneurship, and Wealth |  [Details](posts/Risk_Pref) [CEPR Discussion Paper](https://cepr.org/publications/dp20286)
 
 
-    -   joint with B Hochmuth, and M Merz (both University of Vienna)
+    -   joint with B Hochmuth (U Copenhagen), and M Merz (U Vienna)
    
 
 ------------------------------------------------------------------------
