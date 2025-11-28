@@ -19,7 +19,10 @@ about:
 
 Welcome! I'm Fabian, a PhD student at the University of Vienna studying labor and housing economics. 
 
-My research focuses on two main areas: the drivers of self-employment and their aggregate effects, and the role of older adults' housing decisions in creating market misallocation. I employ a combination of survey data and quantitative heterogeneous agent models to address these questions.
+My primary research interest is macroeconomics with a focus on housing decisions and
+occupational choice. I study how fiscal policies and regulations influence individual behavior using
+survey-based microdata, and how these responses feed back into aggregate outcomes through
+quantitative life-cycle models.
 
 My advisors are [Monika Merz](https://sites.google.com/view/monikamerz){target="_blank"} and [Michael Reiter](https://www.ihs.ac.at/de/personen/michael-reiter/){target="_blank"}.
 
@@ -31,7 +34,9 @@ My advisors are [Monika Merz](https://sites.google.com/view/monikamerz){target="
 
 -   Housing
 
--   Heterogeneous agents
+-   Fiscal Policy
+
+-   Heterogeneous Agents
 
 ------------------------------------------------------------------------
 
