@@ -54,24 +54,25 @@ My advisors are [Monika Merz](https://sites.google.com/view/monikamerz){target="
 
 ------------------------------------------------------------------------
 
-## Work in progress
-
--   Aggregate and Inter-Generational Effects of Changing the Real Estate Transfer Tax | [Details](posts/RETT)
-
--   Business Risk, Taxation and Economic Welfare
-
-
-    -   joint with B Hochmuth (U Copenhagen), and M Merz (U Vienna)
-
-------------------------------------------------------------------------
-
 ## Working papers    
+
+-   Aggregate and Inter-Generational Effects of Changing the Real Estate Transfer Tax | [Details](posts/RETT) [Working Paper](posts/RETT/JMP_Prettenthaler.pdf)
 
 -   Heterogeneous Risk Preferences, Entrepreneurship, and Wealth |  [Details](posts/Risk_Pref) [CEPR Discussion Paper](https://cepr.org/publications/dp20286)
 
 
     -   joint with B Hochmuth (U Copenhagen), and M Merz (U Vienna)
    
+   
+------------------------------------------------------------------------
+
+## Work in progress
+
+-   Business Risk, Taxation and Economic Welfare
+
+
+    -   joint with B Hochmuth (U Copenhagen), and M Merz (U Vienna)
+
 
 ------------------------------------------------------------------------
 

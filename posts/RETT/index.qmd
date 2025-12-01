@@ -1,6 +1,6 @@
 ---
 title: "Aggregate and Inter-Generational Effects of Changing the Real Estate Transfer Tax"
-categories: [Work in Progress]
+categories: [Working Paper]
 image: "RETT.png"
 ---
 
@@ -8,5 +8,5 @@ This paper examines the consequences of unanticipated changes in real estate tra
 
 ------------------------------------------------------------------------
 
-
+[Working Paper](JMP_Prettenthaler.pdf)
 

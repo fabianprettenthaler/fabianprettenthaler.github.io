@@ -25,7 +25,7 @@
     "href": "index.html#work-in-progress",
     "title": "Fabian Prettenthaler",
     "section": "Work in progress",
-    "text": "Work in progress\n\nAggregate and Inter-Generational Effects of Changing the Real Estate Transfer Tax | Details\nBusiness Risk, Taxation and Economic Welfare\n\njoint with B Hochmuth (U Copenhagen), and M Merz (U Vienna)"
+    "text": "Work in progress\n\nBusiness Risk, Taxation and Economic Welfare\n\njoint with B Hochmuth (U Copenhagen), and M Merz (U Vienna)"
   },
   {
     "objectID": "index.html#teaching",
@@ -39,14 +39,14 @@
     "href": "blog.html",
     "title": "Research",
     "section": "",
-    "text": "Aggregate and Inter-Generational Effects of Changing the Real Estate Transfer Tax\n\n\n\n\n\n\nWork in Progress\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeterogeneous Risk Preferences, Entrepreneurship, and Wealth\n\n\n\n\n\n\nWorking Paper\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Aggregate and Inter-Generational Effects of Changing the Real Estate Transfer Tax\n\n\n\n\n\n\nWorking Paper\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeterogeneous Risk Preferences, Entrepreneurship, and Wealth\n\n\n\n\n\n\nWorking Paper\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/RETT/index.html",
     "href": "posts/RETT/index.html",
     "title": "Aggregate and Inter-Generational Effects of Changing the Real Estate Transfer Tax",
     "section": "",
-    "text": "This paper examines the consequences of unanticipated changes in real estate transfer taxes (RETT), on housing and consumption decisions across generations. While local governments often rely on RETT to finance public spending, higher tax rates discourage property transactions and exacerbate the lock-in effect for elderly home owners. Using data from the German Socio-Economic Panel (GSOEP) combined with local real estate market indices, I estimate the effects of transfer taxes and local housing prices on the likelihood of retired home owners downsizing. I find that a 1 pp higher transfer taxes reduce the probability of downsizing by 0.5 pp, whereas a 1 pp higher local purchase price index increases it by 0.7 pp. To investigate the implications of changes in RETT on different cohorts, I develop a quantitative life-cycle model that incorporates housing decisions and consumption responses to unexpected tax reforms under a balanced budget. The model successfully replicates observed home ownership patterns in Germany between 2007-2020. In the short run, retired homeowners benefit from reduced transaction costs, which increase their old-age consumption by approximately 0.6%, even as house prices initially decline. In contrast, younger households experience an immediate decrease in consumption of up to -4%. In the long run, as house prices return to their original levels, higher income taxes introduced to offset the revenue loss from lower RETT lead to a decline in consumption of about -1% across all households."
+    "text": "This paper examines the consequences of unanticipated changes in real estate transfer taxes (RETT), on housing and consumption decisions across generations. While local governments often rely on RETT to finance public spending, higher tax rates discourage property transactions and exacerbate the lock-in effect for elderly home owners. Using data from the German Socio-Economic Panel (GSOEP) combined with local real estate market indices, I estimate the effects of transfer taxes and local housing prices on the likelihood of retired home owners downsizing. I find that a 1 pp higher transfer taxes reduce the probability of downsizing by 0.5 pp, whereas a 1 pp higher local purchase price index increases it by 0.7 pp. To investigate the implications of changes in RETT on different cohorts, I develop a quantitative life-cycle model that incorporates housing decisions and consumption responses to unexpected tax reforms under a balanced budget. The model successfully replicates observed home ownership patterns in Germany between 2007-2020. In the short run, retired homeowners benefit from reduced transaction costs, which increase their old-age consumption by approximately 0.6%, even as house prices initially decline. In contrast, younger households experience an immediate decrease in consumption of up to -4%. In the long run, as house prices return to their original levels, higher income taxes introduced to offset the revenue loss from lower RETT lead to a decline in consumption of about -1% across all households.\n\nWorking Paper"
   },
   {
     "objectID": "teaching.html",
@@ -67,6 +67,6 @@
     "href": "index.html#working-papers",
     "title": "Fabian Prettenthaler",
     "section": "Working papers",
-    "text": "Working papers\n\nHeterogeneous Risk Preferences, Entrepreneurship, and Wealth | Details CEPR Discussion Paper\n\njoint with B Hochmuth (U Copenhagen), and M Merz (U Vienna)"
+    "text": "Working papers\n\nAggregate and Inter-Generational Effects of Changing the Real Estate Transfer Tax | Details Working Paper\nHeterogeneous Risk Preferences, Entrepreneurship, and Wealth | Details CEPR Discussion Paper\n\njoint with B Hochmuth (U Copenhagen), and M Merz (U Vienna)"
   }
 ]
